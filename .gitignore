@@ -1,0 +1,31 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Java / Maven build output
+target/
+*.class
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated exploit artifacts
+poc/lib/*.jar
+poc/GenProbe.class
+poc/probe.jar
+poc/www/*
+!poc/www/.gitkeep
+
+# Generated payloads
+payload.json
+poc.rar
+
+# Old exploit script (replaced by poc/exp.py)
+poc/exploit.py
+
+# Local batch output
+results.jsonl
+*.log
